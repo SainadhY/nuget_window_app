@@ -1,0 +1,9 @@
+E:\dot\ConsoleApp_Nuget\bin\Debug\ConsoleApp_Nuget.exe.config
+E:\dot\ConsoleApp_Nuget\bin\Debug\ConsoleApp_Nuget.exe
+E:\dot\ConsoleApp_Nuget\bin\Debug\ConsoleApp_Nuget.pdb
+E:\dot\ConsoleApp_Nuget\bin\Debug\ClassLibrary1.dll
+E:\dot\ConsoleApp_Nuget\obj\Debug\ConsoleApp_Nuget.csprojAssemblyReference.cache
+E:\dot\ConsoleApp_Nuget\obj\Debug\ConsoleApp_Nuget.csproj.CoreCompileInputs.cache
+E:\dot\ConsoleApp_Nuget\obj\Debug\ConsoleApp_Nuget.csproj.CopyComplete
+E:\dot\ConsoleApp_Nuget\obj\Debug\ConsoleApp_Nuget.exe
+E:\dot\ConsoleApp_Nuget\obj\Debug\ConsoleApp_Nuget.pdb
