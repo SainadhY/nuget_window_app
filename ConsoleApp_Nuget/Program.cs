@@ -11,7 +11,7 @@ namespace ConsoleApp_Nuget
     {
         static void Main(string[] args)
         {
-            int a =1;
+            int a =2;
             int b = 2;
             Class1 math = new Class1();
             Console.Write("a + b = {0}", math.add(a,b));
