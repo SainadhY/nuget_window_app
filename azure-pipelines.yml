@@ -52,7 +52,9 @@ steps:
  # inputs:
   #  script: 'echo nuget.exe push -Source "sivasaiv9" -ApiKey AzureDevOps my_package.nupkg'
 
-- task: Bash@3
+- task: NuGetCommand@2
   inputs:
-    targetType: 'inline'
-    script: 'nuget.exe push -Source "sivasaiv9" -ApiKey AzureDevOps my_package.nupkg'
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'Nuget_SrvConn'
