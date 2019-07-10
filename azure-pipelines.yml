@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 
-
+name: $(Major).$(Minor).$(rev:r)
 trigger:
 - master
 pool:
@@ -13,7 +13,6 @@ pool:
 #variables:
   Major: 0
   Minor: 0
-  name: $(Major).$(Minor).$(rev:r)
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
